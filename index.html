@@ -3,6 +3,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Interpolacion de Lagrange</title>
+    <link rel="shortcut icon" href="resources/js.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -16,42 +17,42 @@
         <form class="cajita">
           <h1>Lineal</h1>
           <p>¿Buscamos Error?</p>
-          <input type="checkbox" name="radio" id="Error"><input type="number" name="numero" id="f_x_" disabled/>
+          <input type="checkbox" name="radio" id="Error"><input type="number" placeholder="Ingrese Valor Verdadero" name="numero" id="f_x_" disabled/>
           <p>coloque el valor de X, X0 y X1</p>
-          <input type="number" name="numero" id="Ej1X" />
-          <input type="number" name="numero" id="Ej1X0" />
-          <input type="number" name="numero" id="Ej1X1" />
+          <input type="number" placeholder="Ingrese X" name="numero" id="Ej1X" />
+          <input type="number" placeholder="Ingrese X0" name="numero" id="Ej1X0" />
+          <input type="number" placeholder="Ingrese X1" name="numero" id="Ej1X1" />
           <br />
           <p>coloque el valor de f(X0) y f(X1)</p>
-          <input type="number" name="numero" id="Ej1fX0" />
-          <input type="number" name="numero" id="Ej1fX1" />
+          <input type="number" placeholder="Ingrese f(x0)" name="numero" id="Ej1fX0" />
+          <input type="number" placeholder="Ingrese f(x1)" name="numero" id="Ej1fX1" />
           <br />
           <input type="text" name="res" id="res1" class="res" readonly="readonly"/>
           <input type="text" name="res" id="res1Error" class="res" readonly="readonly"/>
           <br />
 
-          <input type="button" id="ej01" value="Go" />
+          <input type="button" id="ej01" value="Resolver" />
         </form>
         <form class="cajita">
           <h1>Segundo Grado</h1>
           <p>¿Buscamos Error?</p>
-          <input type="checkbox" name="radio" id="Error2"><input type="number" name="numero" id="f2_x_" disabled/>
+          <input type="checkbox" name="radio" id="Error2"><input type="number" placeholder="Ingrese Valor Verdadero" name="numero" id="f2_x_" disabled/>
           <p>coloque el valor de X, X0, X1 y X2</p>
-          <input type="number" name="numero" id="Ej2X" />
-          <input type="number" name="numero" id="Ej2X0" />
-          <input type="number" name="numero" id="Ej2X1" />
-          <input type="number" name="numero" id="Ej2X2" />
+          <input type="number" placeholder="Ingrese X" name="numero" id="Ej2X" />
+          <input type="number" placeholder="Ingrese X0" name="numero" id="Ej2X0" />
+          <input type="number" placeholder="Ingrese X1" name="numero" id="Ej2X1" />
+          <input type="number" placeholder="Ingrese X2" name="numero" id="Ej2X2" />
           <br />
           <p>coloque el valor de f(X0), f(X1) y f(X2)</p>
-          <input type="number" name="numero" id="Ej2fX0" />
-          <input type="number" name="numero" id="Ej2fX1" />
-          <input type="number" name="numero" id="Ej2fX2" />
+          <input type="number" placeholder="Ingrese f(x0)" name="numero" id="Ej2fX0" />
+          <input type="number" placeholder="Ingrese f(x1)" name="numero" id="Ej2fX1" />
+          <input type="number" placeholder="Ingrese f(x2)" name="numero" id="Ej2fX2" />
           <br />
           <input type="text" name="res" id="res2" class="res" readonly="readonly"/>
           <input type="text" name="res" id="res2Error" class="res" readonly="readonly"/>
           <br />
 
-          <input type="button" id="ej02" value="Go" />
+          <input type="button" id="ej02" value="Resolver" />
         </form>
     <script src="main.js" type="module"></script>
     

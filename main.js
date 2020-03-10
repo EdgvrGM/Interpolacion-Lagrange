@@ -50,10 +50,21 @@ BtnEj1.addEventListener("click", () => {
     let fx1 = document.querySelector("#Ej1fX1").value;
     let res = document.querySelector("#res1");
     let res2 = document.querySelector("#res1Error");
-
-    let Solucion = new Main()
+    if (x == "") {
+        alert("INGRESE LOS DATOS CORRESPONDIENTES")
+    } else if (x0 == "") {
+        alert("INGRESE LOS DATOS CORRESPONDIENTES")   
+    } else if (x1 == "") {
+        alert("INGRESE LOS DATOS CORRESPONDIENTES")
+    } else if (fx0 == "") {
+        alert("INGRESE LOS DATOS CORRESPONDIENTES")   
+    } else if (fx1 == "") {
+        alert("INGRESE LOS DATOS CORRESPONDIENTES")
+    } else {
+        let Solucion = new Main()
 
     Solucion.getLineal(x,x0,x1,f_x_1,fx0,fx1,checkedQ1,res,res2)
+    }
   });
 
   BtnEj2.addEventListener("click", () => {
@@ -67,8 +78,23 @@ BtnEj1.addEventListener("click", () => {
     let fx2 = document.querySelector("#Ej2fX2").value;
     let res = document.querySelector("#res2");
     let res2 = document.querySelector("#res2Error");
-
-    let Solucion = new Main()
+    if (x == "") {
+        alert("INGRESE LOS DATOS CORRESPONDIENTES")
+    } else if (x0 == "") {
+        alert("INGRESE LOS DATOS CORRESPONDIENTES")   
+    } else if (x1 == "") {
+        alert("INGRESE LOS DATOS CORRESPONDIENTES")
+    } else if (x2 == "") {
+        alert("INGRESE LOS DATOS CORRESPONDIENTES")   
+    } else if (fx0 == "") {
+        alert("INGRESE LOS DATOS CORRESPONDIENTES")
+    } else if (fx1 == "") {
+        alert("INGRESE LOS DATOS CORRESPONDIENTES")   
+    } else if (fx2 == "") {
+        alert("INGRESE LOS DATOS CORRESPONDIENTES")
+    } else {
+        let Solucion = new Main()
 
     Solucion.getCuadratica(x,x0,x1,x2,f_x_1,fx0,fx1,fx2,checkedQ2,res,res2)
+    }
   });
